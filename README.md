@@ -187,8 +187,9 @@ Follow these steps to mount the EFS (Elastic File System) on InstanceB:
 	cd /efs/wp-content
 	ls -la
 	cat myefsfile.txt
-```
-	![Untitled](/images/Untitled9.png)	\
+	```
+	![Untitled](/images/Untitled9.png)
+
 16.	You have now successfully mounted the EFS file system on InstanceB for your GitHub project.
 
 ## Stage X - Cleanup
@@ -200,6 +201,7 @@ To perform the cleanup tasks for Stage X, please follow the steps outlined below
 2. Locate and select the `My-EFS` File System from the available options.
 
 3. Click on the `Delete` button.
+
 ![Untitled](/images/Untitled10.png)
 
 4. In the provided input box, either type or paste the FS-XXXXX id associated with the file system you wish to remove.
@@ -211,6 +213,7 @@ To perform the cleanup tasks for Stage X, please follow the steps outlined below
 7. Once the removal is finished, navigate back to the CloudFormation console by accessing the following URL: [https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks?filteringText=&filteringStatus=active&viewNested=true&hideStacks=false](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks?filteringText=&filteringStatus=active&viewNested=true&hideStacks=false).
 
 8. Locate and select the `EFS-Stack` stack from the list of available stacks.
+
 ![Untitled](/images/Untitled11.png)
 
 9. Click on the `Delete` button.
