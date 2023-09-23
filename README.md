@@ -188,9 +188,10 @@ Follow these steps to mount the EFS (Elastic File System) on InstanceB:
 	ls -la
 	cat myefsfile.txt
 	```
-	![Untitled](/images/Untitled9.png)
+	
+ ![Untitled](/images/Untitled9.png)
 
-16.	You have now successfully mounted the EFS file system on InstanceB for your GitHub project.
+16.	You have now successfully mounted the EFS file system on InstanceB.
 
 ## Stage X - Cleanup
 
